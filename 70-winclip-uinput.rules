@@ -1,0 +1,2 @@
+# Let the logged-in user create a virtual keyboard (WinClip presses Ctrl+V after you pick an item)
+KERNEL=="uinput", SUBSYSTEM=="misc", OPTIONS+="static_node=uinput", TAG+="uaccess"
